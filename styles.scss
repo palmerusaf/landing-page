@@ -1,0 +1,94 @@
+
+.flex{
+display: flex;
+}
+
+.flex-col{
+display: flex;
+flex-direction: column;
+}
+
+.page{
+
+    &__content-before-footer{
+    }
+
+    &__footer{
+    }
+}
+
+.header{
+
+    &__logo{
+
+    }
+
+    &__nav-bar
+}
+
+.unformatted-list{
+
+}
+
+.section-one
+{
+    &__content{
+
+    }
+
+    &__bottom-left{
+
+    }
+
+    &__img{
+
+    }
+}
+
+.button{
+
+    &__white-border{
+
+    }
+}
+
+.section-two{
+
+    &__title{
+
+    }
+
+    &__list{
+
+    }
+
+    &__img{
+
+    }
+
+    &__figcaption{
+
+    }
+}
+
+.section-three{
+    
+    &__quote{
+
+    }
+
+    &__cite{
+
+    }
+}
+
+.section-four{
+
+    &__title{
+
+    }
+
+    &__para{
+
+    }
+}
