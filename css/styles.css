@@ -107,7 +107,7 @@ html {
     font-size: 36px;
     color: #1f2937; }
   .section-two__list {
-    align-items: center;
+    align-items: flex-start;
     gap: 3em; }
   .section-two__list-items {
     gap: 0.5em;
