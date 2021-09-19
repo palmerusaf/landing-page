@@ -30,7 +30,7 @@ html {
     padding: 2em; }
 
 .header {
-  padding-top: 1em;
+  padding-top: 1.5em;
   width: 100%; }
   .header__logo {
     color: #f9faf8;
@@ -39,7 +39,7 @@ html {
     margin-right: auto; }
   .header__nav-bar {
     margin-left: auto;
-    gap: 1em; }
+    gap: 1.5em; }
   .header__nav-items {
     font-size: 18px;
     color: #e4e7eb; }
@@ -54,11 +54,11 @@ html {
   list-style: none; }
 
 .section-one {
-  padding: 0 11em;
-  padding-bottom: 6em;
+  padding: 0 12em;
+  padding-bottom: 8em;
   background: #1f2937; }
   .section-one__content {
-    padding-top: 5em;
+    padding-top: 7em;
     gap: 3em; }
   .section-one__bottom-left {
     width: 50%; }
@@ -71,33 +71,35 @@ html {
     font-weight: 800; }
   .section-one__para {
     padding: 0;
-    padding-bottom: 0.5em;
+    padding-bottom: .75em;
     margin: 0;
     color: #e4e7eb;
     font-size: 18px; }
   .section-one__img {
-    width: 50%;
-    height: 225px; }
+    width: 520px;
+    height: 230px; }
 
 .button {
   border: none;
-  width: 8em;
-  height: 2.3em;
+  width: 7.5em;
+  height: 2em;
   background: #3882f6;
   color: white;
-  border-radius: 0.5em; }
+  border-radius: 0.5em;
+  font-size: 18px;
+  font-weight: 700; }
   .button--white-border {
-    border: white solid 1px; }
+    border: white solid 2px; }
   .button:hover {
     cursor: pointer;
     transform: scale(1.1); }
 
 .section-two {
-  padding-top: 2em;
-  padding-bottom: 6em;
+  padding-top: 4em;
+  padding-bottom: 7em;
   align-items: center;
   justify-content: center;
-  gap: 2em; }
+  gap: 3em; }
   .section-two__title {
     padding: 0;
     margin: 0;
@@ -119,7 +121,7 @@ html {
 
 .section-three {
   background: #e5e7eb;
-  padding: 5em 10em;
+  padding: 5em 13em;
   color: #1f2937; }
   .section-three__quote {
     margin: 0;
@@ -128,6 +130,7 @@ html {
     font-weight: 300; }
   .section-three__cite {
     margin-top: -1.5em;
+    margin-right: 1em;
     text-align: right;
     font-style: normal;
     font-weight: 700;
@@ -136,7 +139,7 @@ html {
 .section-four {
   align-items: center;
   justify-content: center;
-  padding: 4em 11em; }
+  padding: 6em 11em; }
   .section-four__inner-block {
     align-items: center;
     gap: 10em;
