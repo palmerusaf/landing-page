@@ -14,14 +14,21 @@ html {
   flex-direction: column; }
 
 .page {
-  width: 100%;
-  height: 100%; 
+  min-width: 100%;
+  min-height: 100%;
   padding: 0;
-  margin: 0;}
+  margin: 0; }
   .page__content-before-footer {
     flex: 1 1 auto; }
   .page__footer {
-
     background: #1f2937;
     font-size: 18px;
-    color: #e5e7eb; }
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 2em; }
+
+.unformatted-list {
+  list-style: none; }
+
+/*# sourceMappingURL=styles.css.map */
