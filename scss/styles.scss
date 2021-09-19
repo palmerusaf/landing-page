@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   font-family: sans-serif;
-//   border: rgb(153, 146, 146) solid 1px;
 }
 
 html {
@@ -73,7 +72,7 @@ html {
 
   &__bottom-left {
     width: 50%;
-}
+  }
 
   &__title {
     width: 100%;
@@ -86,7 +85,7 @@ html {
 
   &__para {
     padding: 0;
-    padding-bottom: .5em;
+    padding-bottom: 0.5em;
     margin: 0;
     color: #e4e7eb;
     font-size: 18px;
@@ -99,75 +98,96 @@ html {
 }
 
 .button {
-    border: none;
-    width: 8em;
-    height: 2.3em;
-    background: #3882f6;
-    color: white;
-    border-radius: .5em;
+  border: none;
+  width: 8em;
+  height: 2.3em;
+  background: #3882f6;
+  color: white;
+  border-radius: 0.5em;
   &--white-border {
+      border: white solid 1px;
   }
 }
 
 .section-two {
-    padding-top: 2em;
-    padding-bottom: 6em;
-    align-items: center;
-    justify-content: center;
-    gap: 2em;
+  padding-top: 2em;
+  padding-bottom: 6em;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
   &__title {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     font-weight: 800;
     font-size: 36px;
     color: #1f2937;
-}
+  }
 
   &__list {
-      align-items: center;
-      gap: 3em;
-
+    align-items: center;
+    gap: 3em;
   }
 
   &__list-items {
-      gap: .5em;
-      width: 175px;
+    gap: 0.5em;
+    width: 175px;
   }
 
   &__img {
-      border-radius: 25px;
-      border: #3882f6 4px solid;
-      height:175px;
+    border-radius: 25px;
+    border: #3882f6 4px solid;
+    height: 175px;
   }
 
   &__figcaption {
-      text-align: center;
+    text-align: center;
   }
 }
 
 .section-three {
-    background: #e5e7eb;
-    padding: 5em 10em;
-    color: #1f2937;
+  background: #e5e7eb;
+  padding: 5em 10em;
+  color: #1f2937;
   &__quote {
-      margin: 0;
+    margin: 0;
     font-size: 36px;
     font-style: italic;
-    font-weight:300;
+    font-weight: 300;
   }
 
   &__cite {
-      text-align: right;
+      margin-top: -1.5em;
+    text-align: right;
     font-style: normal;
-    font-weight:700;
-font-size: 24px;
+    font-weight: 700;
+    font-size: 24px;
   }
 }
 
 .section-four {
+    align-items: center;
+    justify-content: center;
+  padding: 4em 11em;
+
+&__inner-block{
+    align-items: center;
+    gap: 10em;
+    background: #3882f6;
+  padding: 3em 6em;
+  border-radius: 10px;
+}
+
   &__title {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight:600;
+    margin-right: auto;
+    margin: 0;
   }
 
   &__para {
+    color: #e4e7eb;
+    font-size: 18px;
+    margin: 0;
   }
 }
