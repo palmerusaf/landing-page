@@ -23,6 +23,7 @@ html {
   min-height: 100%;
   padding: 0;
   margin: 0;
+  background: white;
   &__content-before-footer {
     flex: 1 1 auto;
   }
@@ -109,20 +110,42 @@ html {
 }
 
 .section-two {
+    padding-top: 2em;
+    padding-bottom: 6em;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
   &__title {
-  }
+    padding:0;
+    margin:0;
+    font-weight: 800;
+    font-size: 36px;
+}
 
   &__list {
+      align-items: center;
+      gap: 3em;
+
+  }
+
+  &__list-items {
+      gap: .5em;
+      width: 175px;
   }
 
   &__img {
+      border-radius: 25px;
+      border: #3882f6 4px solid;
+      height:175px;
   }
 
   &__figcaption {
+      text-align: center;
   }
 }
 
 .section-three {
+    background: #e5e7eb;
   &__quote {
   }
 

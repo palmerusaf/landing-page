@@ -17,7 +17,8 @@ html {
   min-width: 100%;
   min-height: 100%;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  background: white; }
   .page__content-before-footer {
     flex: 1 1 auto; }
   .page__footer {
@@ -80,5 +81,32 @@ html {
   background: #3882f6;
   color: white;
   border-radius: .5em; }
+
+.section-two {
+  padding-top: 2em;
+  padding-bottom: 6em;
+  align-items: center;
+  justify-content: center;
+  gap: 2em; }
+  .section-two__title {
+    padding: 0;
+    margin: 0;
+    font-weight: 800;
+    font-size: 36px; }
+  .section-two__list {
+    align-items: center;
+    gap: 3em; }
+  .section-two__list-items {
+    gap: .5em;
+    width: 175px; }
+  .section-two__img {
+    border-radius: 25px;
+    border: #3882f6 4px solid;
+    height: 175px; }
+  .section-two__figcaption {
+    text-align: center; }
+
+.section-three {
+  background: #e5e7eb; }
 
 /*# sourceMappingURL=styles.css.map */
