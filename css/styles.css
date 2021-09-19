@@ -48,6 +48,37 @@ html {
   list-style: none; }
 
 .section-one {
+  padding: 0 11em;
+  padding-bottom: 6em;
   background: #1f2937; }
+  .section-one__content {
+    padding-top: 5em;
+    gap: 3em; }
+  .section-one__bottom-left {
+    width: 50%; }
+  .section-one__title {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800; }
+  .section-one__para {
+    padding: 0;
+    padding-bottom: .5em;
+    margin: 0;
+    color: #e4e7eb;
+    font-size: 18px; }
+  .section-one__img {
+    width: 50%;
+    height: 225px; }
+
+.button {
+  border: none;
+  width: 8em;
+  height: 2.3em;
+  background: #3882f6;
+  color: white;
+  border-radius: .5em; }
 
 /*# sourceMappingURL=styles.css.map */

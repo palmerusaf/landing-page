@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: sans-serif;
+//   border: rgb(153, 146, 146) solid 1px;
 }
 
 html {
@@ -61,19 +62,49 @@ html {
 }
 
 .section-one {
+  padding: 0 11em;
+  padding-bottom: 6em;
   background: #1f2937;
   &__content {
+    padding-top: 5em;
+    gap: 3em;
   }
 
   &__bottom-left {
+    width: 50%;
+}
+
+  &__title {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+  }
+
+  &__para {
+    padding: 0;
+    padding-bottom: .5em;
+    margin: 0;
+    color: #e4e7eb;
+    font-size: 18px;
   }
 
   &__img {
+    width: 50%;
+    height: 225px;
   }
 }
 
 .button {
-  &__white-border {
+    border: none;
+    width: 8em;
+    height: 2.3em;
+    background: #3882f6;
+    color: white;
+    border-radius: .5em;
+  &--white-border {
   }
 }
 
