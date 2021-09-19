@@ -1,116 +1,108 @@
-
-*{
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-html{
-    width: 100%;
-    height: 100%;
+html {
+  width: 100%;
+  height: 100%;
 }
 
-.flex{
-display: flex;
+.flex {
+  display: flex;
 }
 
-.flex-col{
-display: flex;
-flex-direction: column;
+.flex-col {
+  display: flex;
+  flex-direction: column;
 }
 
-.page{
-min-width: 100%;
-min-height: 100%;
-padding:0;
-margin:0;
-    &__content-before-footer{
-    flex:1 1 auto;
-    }
+.page {
+  min-width: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  &__content-before-footer {
+    flex: 1 1 auto;
+  }
 
-    &__footer{
-background: #1f2937;
-font-size: 18px;
-color: #e5e7eb;
-justify-content: center;
-align-items: center;
-padding: 2em;
-    }
+  &__footer {
+    background: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+  }
 }
 
-.header{
+.header {
+  padding-top: 1em;
+  width: 100%;
+  &__logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+    margin-right: auto;
+  }
 
-    &__logo{
-
-    }
-
-    &__nav-bar{
-
-    }
+  &__nav-bar {
+    font-size: 18px;
+    color: #e4e7eb;
+    margin-left: auto;
+    gap: 1em;
+  }
 }
 
-.unformatted-list{
-list-style: none;
+.unformatted-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-.section-one
-{
-    &__content{
+.section-one {
+  background: #1f2937;
+  &__content {
+  }
 
-    }
+  &__bottom-left {
+  }
 
-    &__bottom-left{
-
-    }
-
-    &__img{
-
-    }
+  &__img {
+  }
 }
 
-.button{
-
-    &__white-border{
-
-    }
+.button {
+  &__white-border {
+  }
 }
 
-.section-two{
+.section-two {
+  &__title {
+  }
 
-    &__title{
+  &__list {
+  }
 
-    }
+  &__img {
+  }
 
-    &__list{
-
-    }
-
-    &__img{
-
-    }
-
-    &__figcaption{
-
-    }
+  &__figcaption {
+  }
 }
 
-.section-three{
-    
-    &__quote{
+.section-three {
+  &__quote {
+  }
 
-    }
-
-    &__cite{
-
-    }
+  &__cite {
+  }
 }
 
-.section-four{
+.section-four {
+  &__title {
+  }
 
-    &__title{
-
-    }
-
-    &__para{
-
-    }
+  &__para {
+  }
 }
