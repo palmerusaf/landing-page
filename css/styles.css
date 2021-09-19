@@ -38,10 +38,15 @@ html {
     font-weight: 900;
     margin-right: auto; }
   .header__nav-bar {
-    font-size: 18px;
-    color: #e4e7eb;
     margin-left: auto;
     gap: 1em; }
+  .header__nav-items {
+    font-size: 18px;
+    color: #e4e7eb; }
+    .header__nav-items:hover {
+      cursor: pointer;
+      text-decoration: underline;
+      transform: scale(1.05); }
 
 .unformatted-list {
   padding: 0;
@@ -83,6 +88,9 @@ html {
   border-radius: 0.5em; }
   .button--white-border {
     border: white solid 1px; }
+  .button:hover {
+    cursor: pointer;
+    transform: scale(1.1); }
 
 .section-two {
   padding-top: 2em;

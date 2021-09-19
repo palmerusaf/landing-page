@@ -48,10 +48,18 @@ html {
   }
 
   &__nav-bar {
-    font-size: 18px;
-    color: #e4e7eb;
     margin-left: auto;
     gap: 1em;
+  }
+
+  &__nav-items {
+    font-size: 18px;
+    color: #e4e7eb;
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+      transform: scale(1.05);
+    }
   }
 }
 
@@ -105,7 +113,11 @@ html {
   color: white;
   border-radius: 0.5em;
   &--white-border {
-      border: white solid 1px;
+    border: white solid 1px;
+  }
+  &:hover {
+      cursor: pointer;
+    transform: scale(1.1);
   }
 }
 
@@ -156,7 +168,7 @@ html {
   }
 
   &__cite {
-      margin-top: -1.5em;
+    margin-top: -1.5em;
     text-align: right;
     font-style: normal;
     font-weight: 700;
@@ -165,22 +177,22 @@ html {
 }
 
 .section-four {
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
   padding: 4em 11em;
 
-&__inner-block{
+  &__inner-block {
     align-items: center;
     gap: 10em;
     background: #3882f6;
-  padding: 3em 6em;
-  border-radius: 10px;
-}
+    padding: 3em 6em;
+    border-radius: 10px;
+  }
 
   &__title {
     color: #f9faf8;
     font-size: 24px;
-    font-weight:600;
+    font-weight: 600;
     margin-right: auto;
     margin: 0;
   }
