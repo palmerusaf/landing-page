@@ -7,57 +7,57 @@
     <title>Temp Title</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <div class="content">
-        <div class="container-one">
-            <header>
-                <span>Header Logo</span>
-                <nav>
-                <ul>
+  <body class="flex-col page">
+    <div class="page__content-before-footer">
+        <div class="flex-col section-one">
+            <header class="header">
+                <span class="header__logo">Header Logo</span>
+                <nav class="header__nav-bar">
+                <ul class="unformatted-list">
                     <li>header link one</li>
                     <li>header link two</li>
                     <li>header link three</li>
                 </ul>
                 </nav>
             </header>
-            <div class="left">
-                <h1>This website is awesome</h1>
-                <p>
-                This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
-                </p>
-                <button>Sign up</button>
-            </div>
-            <img src="" alt="" />
-            </div>
-            <div class="container-two">
-            <h1>Some random information.</h1>
-            <ul>
-                <li> <img src="" alt="" />this is some subtext under an illustration or image </li>
-                <li> <img src="" alt="" />this is some subtext under an illustration or image </li>
-                <li> <img src="" alt="" />this is some subtext under an illustration or image </li>
-                <li> <img src="" alt="" />this is some subtext under an illustration or image </li>
-            </ul>
-            </div>
-            <div class="container-three">
-            <figure>
-                <blockquote>
-                    <p>
-                        This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that is looks nice.
+            <div class="flex section-one__content">
+                <div class="flex-col section-one__bottom-left">
+                    <h1 class="section-one__title">This website is awesome</h1>
+                    <p class="section-one__para">
+                    This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
                     </p>
-                </blockquote>
-                <figcaption>-Thor,<cite>God of Thunder</cite></figcaption>
-            </figure>
-            </div>
-            <div class="container-four">
-                <div class="inside">
-                    <div class="left">
-                        <h1>Call to action! It's time!</h1>
-                        <p>Sign up for our product by clicking that button right over there!</p>
-                    </div>
-                    <button>Sign up</button>
+                    <button class="button">Sign up</button>
                 </div>
+                <img class="section-one__img" src="" alt="" />
             </div>
+            </div>
+        <div class="flex-col section-two">
+        <h1 class="section-two__title">Some random information.</h1>
+        <ul class="flex unformatted-list section-two__list">
+            <li class="flex-col"> <img class="section-two__img" src="" alt="" /><figcaption class="section-two__figcatption">this is some subtext under an illustration or image </figcaption></li>
+        </ul>
+        </div>
+        <div class="flex section-three">
+        <figure class="flex-col">
+            <blockquote class="section-three__quote">
+                <p>
+                    This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that is looks nice.
+                </p>
+            </blockquote>
+            <figcaption class="section-three__cite">-Thor,<cite class="section-three__cite">God of Thunder</cite></figcaption>
+        </figure>
+        </div>
+        <div class="flex section-four">
+            <div class="flex">
+                <div class="flex-col">
+                    <h1 class="section-four__title">Call to action! It's time!</h1>
+                    <p class="section-four__para">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button class="button button--white-border">Sign up</button>
+            </div>
+        </div>
     </div>
-    <footer><span>Copyright © The Odin Project 2021</span></footer>
+    <footer class="page__footer"><span>Copyright © The Odin Project 2021</span></footer>
   </body>
 </html>
+
